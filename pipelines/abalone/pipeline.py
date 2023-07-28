@@ -328,6 +328,4 @@ def get_pipeline(
         steps=[step_process, step_train, step_eval, step_cond],
         sagemaker_session=pipeline_session,
     )
-    print('aaaaaaaaaaa')
-    print(pipeline)
     return pipeline
